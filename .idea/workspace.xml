@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4d3c283-4e38-411a-894c-79f574f6656f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/vue1/1" beforeDir="false" afterPath="$PROJECT_DIR$/vue1/1" afterDir="false" />
+    <list default="true" id="a4d3c283-4e38-411a-894c-79f574f6656f" name="Default Changelist" comment="1">
+      <change beforePath="$PROJECT_DIR$/vue1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/.idea/DL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/DeepLearning/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/DeepLearning/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/DeepLearning/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/DeepLearning/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/DeepLearning/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/DeepLearning/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/DeepLearning/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/deep_learning/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/deep_learning/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/deep_learning/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/deep_learning/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue1/manage.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vue1" />
   </component>
   <component name="ProjectId" id="1uaUrKZDFK2jrjQjohKu33Z9wOm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,11 +55,34 @@
       <option name="presentableId" value="Default" />
       <updated>1624903392075</updated>
       <workItem from="1624903395218" duration="2000" />
-      <workItem from="1624928675235" duration="590000" />
+      <workItem from="1624928675235" duration="1341000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1624929280145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624929280145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
