@@ -8,16 +8,31 @@
         <el-menu-item index="4" :route="{ name:'Help'}">Help</el-menu-item>
         <el-menu-item index="5" :route="{ name:'AboutUs' }">About Us</el-menu-item>
         <el-menu-item index="6" :route="{ name:'apprec' }">News</el-menu-item>
-        <el-menu-item index="7" :route="{ name:'feedback' }">Download</el-menu-item>
+        <el-menu-item index="7" :route="{ name:'Download' }">Download</el-menu-item>
       </el-col>
     </el-row>
     <div class="header_font">
-    &nbsp;&nbsp;XXXXXXXXX
+    &nbsp;XXXXXXXXX
     </div>
+    <el-row justify="space-around" type="flex">
+       <el-col :span="30">
+          <div class="header_title">
+             <el-menu-item index="8" :route="{ name:'weEncodeEH001841' }">weEncodeEH001841</el-menu-item>
+             <el-menu-item index="9" :route="{ name:'CTCF' }">CTCF</el-menu-item>
+             <el-menu-item index="10" :route="{ name:'POLR2A' }">POLR2A</el-menu-item>
+             <el-menu-item index="11" :route="{ name:'K562' }">K562</el-menu-item>
+          </div>
+       </el-col>
+    </el-row>
   </el-menu>
+
+
 </template>
 
-<style lang="stylus">
+
+
+
+<style scope lang="stylus">
 @import '../../common/stylus/common.styl'
 .df-header
   font-weight bold

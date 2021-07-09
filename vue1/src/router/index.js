@@ -3,6 +3,9 @@ import Router from 'vue-router'
 import store from '../store'
 import * as types from '../store/mutation-types'
 
+// Download
+import Download from '@/pages/Download'
+
 // Contact Us
 import ContactUs from '@/pages/ContactUs'
 
@@ -51,6 +54,10 @@ const router = new Router({
       path: '/ContactUs',
       name: 'ContactUs',
       component: ContactUs
+    }, {
+      path: '/Download',
+      name: 'Download',
+      component: Download
     }
   ]
 })
