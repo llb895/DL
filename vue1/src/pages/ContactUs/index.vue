@@ -6,6 +6,17 @@
           <div class="declaration">
 
 
+            <div>
+             <form class="navbar-form navbar-left" role="search" method="post">
+             {%csrf_token%}
+             <div class="form-group">
+             <input type="text" class="form-control" name="article_title" placeholder="帖子标题">
+             <input type="text" class="form-control" name="article_prief" placeholder="帖子小标题">
+             <input type="text" class="form-control" name="article_content"placeholder="帖子内容">
+             </div>
+             <button type="submit" class="btn btn-default">提交</button>
+             </form>
+            </div>
 
           </div>
         </div>
@@ -33,4 +44,5 @@
         box-shadow 0px 1px 1px rgba(0, 0, 0, .2)
         line-height 1.5em
         color black
+
 </style>

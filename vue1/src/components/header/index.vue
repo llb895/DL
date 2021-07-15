@@ -7,7 +7,7 @@
         <el-menu-item index="3" :route="{ name:'ContactUs' }">Contact Us</el-menu-item>
         <el-menu-item index="4" :route="{ name:'Help'}">Help</el-menu-item>
         <el-menu-item index="5" :route="{ name:'AboutUs' }">About Us</el-menu-item>
-        <el-menu-item index="6" :route="{ name:'apprec' }">News</el-menu-item>
+        <el-menu-item index="6" :route="{ name:'News' }">News</el-menu-item>
         <el-menu-item index="7" :route="{ name:'Download' }">Download</el-menu-item>
       </el-col>
     </el-row>
