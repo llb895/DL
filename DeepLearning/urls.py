@@ -1,7 +1,7 @@
 from django.conf.urls import url
-import views
+from DeepLearning import views
 
 urlpatterns = [
-    url(r'^add_book/', views.add_book),
+    url(r'^submitcomment/', views.submitcomment),
     url(r'^show_books/', views.show_books),
 ]

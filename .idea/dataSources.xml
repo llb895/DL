@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="django_vue_elementUi@localhost" uuid="7bed21eb-ad18-4466-a333-1979694d321d">
+    <data-source source="LOCAL" name="django_vue_elementui@localhost" uuid="928c732d-530a-490f-b73e-56f4978bc00b">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/django_vue_elementUi</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/django_vue_elementui</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
       <driver-properties>
-        <property name="serverTimezone" value="UTC" />
+        <property name="serverTimezone" value="GMT" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="deeplearning@localhost" uuid="70e38fbd-2ec6-494d-ad3a-08f748e9723a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/deeplearning</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="serverTimezone" value="GMT" />
       </driver-properties>
     </data-source>
   </component>

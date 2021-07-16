@@ -6,9 +6,11 @@ import Highlight from './common/js/Highlight.js'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 import 'font-awesome/css/font-awesome.css'
+import VueResource from 'vue-resource'
 
 Vue.use(ElementUI)
 Vue.use(Highlight)
+Vue.use(VueResource)
 
 Vue.config.productionTip = true
 

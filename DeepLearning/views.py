@@ -6,15 +6,17 @@ from django.core import serializers
 from django.shortcuts import render
 from django.views.decorators.http import require_http_methods
 
-from models import Book
+from DeepLearning.models import Comments
+
+
 # Create your views here.
 # add_book接受一个get请求，往数据库里添加一条book数据
 @require_http_methods(["GET"])
-def add_book(request):
+def submitcomment(request):
     response = {}
     try:
-        book = Book(book_name=request.GET.get('book_name'))
-        book.save()
+        information = Comments(name = request.GET.get('name'),email = request.GET.get('email'),comments = request.GET.get('comments'))
+        information.save()
         response['msg'] = 'success'
         response['error_num'] = 0
     except Exception as e:
@@ -29,7 +31,7 @@ def add_book(request):
 def show_books(request):
     response = {}
     try:
-        books = Book.objects.filter()
+        books = Comments.objects.filter()
         response['list'] = json.loads(serializers.serialize("json", books))
         response['msg'] = 'success'
         response['error_num'] = 0
