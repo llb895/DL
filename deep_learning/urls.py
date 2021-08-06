@@ -18,9 +18,11 @@ from django.contrib import admin
 from django.conf.urls import include
 from django.views.generic import TemplateView
 from DeepLearning import urls
+from browse import browse_urls
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^vue/', TemplateView.as_view(template_name="index.html")),
     url(r'^api/', include(urls)),
+    url(r'^api/', include(browse_urls)),
 ]
