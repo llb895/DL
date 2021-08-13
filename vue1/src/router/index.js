@@ -20,9 +20,6 @@ import Help from '@/pages/Help'
 // 首页相关
 import Home from '@/pages/home'
 
-// 反馈
-import Feedback from '@/pages/feedback'
-
 // about us
 import AboutUs from '@/pages/AboutUs'
 
@@ -43,10 +40,6 @@ const router = new Router({
       path: '/',
       name: 'home',
       component: Home
-    }, {
-      path: '/feedback',
-      name: 'feedback',
-      component: Feedback
     }, {
       path: '/AboutUs',
       name: 'AboutUs',

@@ -36,18 +36,20 @@
 @import '../../common/stylus/common.styl'
 .df-header
   font-weight bold
-  background-color #e3e3e3 !important
+  background-color #2f3357 !important
   height 10em
   .el-menu-item
     font-size 1.7em
     transition all .3s ease
+    color #ffffff
     &:hover
-      border-bottom 3px solid #141e9e
-      bc(rgba(227, 227, 227, 0.68) !important, #141e9e)
+      color #000000
+      border-bottom 3px solid #d26101
+      bc(rgba(22, 100, 201, 0.01) !important, #c9510f)
       transform translateY(-10px)
     &.is-active
       border-bottom-left-radius 80%
       border-bottom-right-radius 10%
-      border-bottom 3px solid #141e9e
-      color #141e9e
+      border-bottom 3px solid #d26101
+      color #ffffff
 </style>

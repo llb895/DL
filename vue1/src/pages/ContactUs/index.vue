@@ -12,16 +12,16 @@
               <div class="ContactUsDiv"style="text-align:center">
                Comments
              </div>
-            <el-form :rules="rules">
+              <el-form :rules="rules">
               <el-input v-model="input" placeholder="Name" style="display:inline-table; width: 70%;"></el-input>
               <br/><br/>
               <el-input v-model="input1" placeholder="E-mail" style="display:inline-table; width: 70%;"></el-input>
               <br/><br/>
               <el-input type="textarea" :rows="4" placeholder="Add your comments here" v-model="input2" style="display:inline-table; width: 70%;"></el-input> <br/><br/>
               <el-button type="primary" @click="submit()" style=" margin: 2px;">Submit</el-button>
+
             </el-form>
             </div>
-
 
             </div>
             </div>

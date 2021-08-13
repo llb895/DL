@@ -1,53 +1,16 @@
 <template lang="html">
   <footer class="df-footer">
-    <span>&copy; 诗词小筑 {{ date }}. All Rights Reserved.</span>
+    <span>Copyright 2020 &copy <a href="https://u.osu.edu/bmbl">BMBL</a></span>
  		<div class="beian">
-      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33030202000623">
-        <span>浙公网安备 33030202000623号</span>
-      </a>
-      <a href="http://www.miitbeian.gov.cn/" target="_blank">浙ICP备17006153号-1</a>
+        <span class="footer_font1">Contact us: xxx.xxx</span>
+      <br>
+      <span class="footer_font1">The recommended browsers are Google Chrome and Firefox.</span>
  		</div>
-    <button class="admin-login" @click="adminLogin" :disabled="adminLoginVisible"></button>
   </footer>
 
 </template>
 
-<script>
-export default {
-  name: 'footer',
-  data() {
-    return {
-      adminLoginVisible: false
-    }
-  },
-  computed: {
-    date() {
-      return new Date().getFullYear()
-    }
-  },
-  methods: {
-    adminLogin() {
-      this.$confirm('旅行者，是否前往黑暗祭坛？', '密语', {
-        confirmButtonText: 'YES',
-        cancelButtonText: 'NO',
-        type: 'info',
-        customClass: 'c-confirm',
-        confirmButtonClass: 'btn-pub',
-        cancelButtonClass: 'btn-can'
-      }).then(() => {
-        location.href = 'http://www.dragonflyxd.com/admin'
-      }).catch(() => {
-        this.adminLoginVisible = true
-        this.$message({
-          message: '后会有期。',
-          type: 'info',
-          customClass: 'c-msg'
-        })
-      })
-    }
-  }
-}
-</script>
+
 
 <style lang="stylus" scoped>
 @import '../../common/stylus/common'
