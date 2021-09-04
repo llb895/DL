@@ -91,7 +91,7 @@ export default {
   },
   methods: {
     showInformation () {
-      this.$http.get('http://127.0.0.1:8000/api/show_information')
+      this.$http.get('api/show_information')
         .then((response) => {
           var res = JSON.parse(response.bodyText)
           console.log(res)
@@ -116,9 +116,6 @@ export default {
     current_change: function(currentPage) {
       this.currentPage = currentPage
     }
-  },
-  created: function() {
-    this.total = this.tableData.length
   }
 }
 </script>

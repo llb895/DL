@@ -74,7 +74,7 @@ export default {
   },
   methods: {
     submit () {
-      this.$http.get('http://127.0.0.1:8000/api/submitcomment', {params: {name: this.input, email: this.input1, comments: this.input2}})
+      this.$http.get('api/submitcomment', {params: {name: this.input, email: this.input1, comments: this.input2}})
      // this.$http.get('http://127.0.0.1:8000/api/submitcomment?email=' + this.input1)
      // this.$http.get('http://127.0.0.1:8000/api/submitcomment?comments=' + this.input2)
         .then((response) => {

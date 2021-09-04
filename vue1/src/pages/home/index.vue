@@ -74,7 +74,7 @@ export default {
   },
   methods: {
     home_submit () {
-      this.$http.get('http://127.0.0.1:8000/api/home_submit', {params: {a: this.input, b: this.input1}})
+      this.$http.get('api/home_submit', {params: {a: this.input, b: this.input1}})
         .then((response) => {
           var res = JSON.parse(response.bodyText)
           if (res.error_num === 0) {

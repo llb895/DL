@@ -63,7 +63,11 @@ const router = new Router({
     }, {
       path: '/Browse',
       name: 'Browse',
-      component: Browse
+      component: Browse,
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
     }
   ]
 })
@@ -89,3 +93,4 @@ router.beforeEach((to, from, next) => {
 })
 
 export default router
+

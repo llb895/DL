@@ -8,7 +8,7 @@ from django.views.decorators.http import require_http_methods
 
 from browse.models import information
 
-# show_books返回所有的书籍列表（通过JsonResponse返回能被前端识别的json格式数据）
+
 @require_http_methods(["GET"])
 def show_information(request):
     response = {}

@@ -4,28 +4,53 @@
       <div class="main">
         <div class="aboutusBackground">
         <div class="declaration">
+          <img src="./images/picture.jpg" class="aboutusImages" style="position:absolute;left:300px;top:270px"/>
           <div class="aboutushead">
-            &nbsp;&nbsp;PI:<br/>
+            &nbsp;&nbsp;&nbsp;PI:<br/><br/>
           </div>
-          &nbsp;&nbsp;&nbsp;&nbsp;•Qin Ma, PhD.<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bioinformatic and Mathematical Biosciences Lab, Department of Biomedical Informatics, The Ohio State University.<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:Qin.Ma@osumc.edu<br/>
+          <div class="aboutusmember">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Yongqing Zhang</div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>School of Computer Science</i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Chengdu University of Information Technology</i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chengdu, China<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:zhangyq@cuit.edu.cn<br/>
           <br/>
            <div style="border:1px solid rgba(204,204,204,0.38)"></div>
           <br/>
           <div class="aboutushead">
-            &nbsp;&nbsp;Team members:<br/>
+            &nbsp;&nbsp;&nbsp;Team members:<br/><br/>
           </div>
-          &nbsp;&nbsp;&nbsp;&nbsp;•Jinyu Yang<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department of Mathematics and Statistics, South Dakota State University. Email: jinyu.yangvi@gmail.com<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;•Jinyu Yang<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department of Mathematics and Statistics, South Dakota State University. Email: jinyu.yangvi@gmail.com<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;•Jinyu Yang<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Department of Mathematics and Statistics, South Dakota State University. Email: jinyu.yangvi@gmail.com<br/>
+          <img src="./images/picture.jpg" class="aboutusImages" style="position:absolute;left:300px;top:480px"/>
+          <div class="aboutusmember">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Zixuan Wang<br/></div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>School of Computer Science</i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Chengdu University of Information Technology</i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chengdu, China<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: 175422573@qq.com<br/><br/><br/>
+          <img src="./images/picture.jpg" class="aboutusImages" style="position:absolute;left:300px;top:645px"/>
+          <div class="aboutusmember">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Yuhang Liu<br/></div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>School of Computer Science</i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Chengdu University of Information Technology</i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chengdu, China<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: 714921093@qq.com<br/><br/><br/>
+          <img src="./images/picture.jpg" class="aboutusImages" style="position:absolute;left:300px;top:815px"/>
+          <div class="aboutusmember">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Libo Lu<br/></div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>School of Computer Science</i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Chengdu University of Information Technology</i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chengdu, China<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: llb116@outlook.com<br/><br/><br/>
+          <img src="./images/picture.jpg" class="aboutusImages" style="position:absolute;left:300px;top:980px"/>
+          <div class="aboutusmember">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Xiaoyao Tan<br/></div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>School of Computer Science</i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Chengdu University of Information Technology</i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chengdu, China<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: turing175@gmail.com<br/><br/><br/>
+          <img src="./images/picture.jpg" class="aboutusImages" style="position:absolute;left:300px;top:1145px"/>
+          <div class="aboutusmember">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•Quan Zou<br/></div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Institute of Fundamental and Frontier Sciences</i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>University of Electronic Science and Technology of China</i><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chengdu, China<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: zouquan@nclab.net<br/><br/><br/>
           <div class="aboutusImagesDiv">
-           <img src="./images/picture.jpg" class="aboutusImages"/>
-           <img src="./images/picture.jpg" class="aboutusImages"/>
-           <img src="./images/picture.jpg" class="aboutusImages"/>
+           <img src="./images/cuit.png" class="aboutusImages"/>
           </div>
         </div>
       </div>
