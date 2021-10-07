@@ -2,6 +2,15 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import store from '../store'
 import * as types from '../store/mutation-types'
+// K562
+import K562 from '@/pages/K562'
+
+// POLR2A
+import POLR2A from '@/pages/POLR2A'
+
+// CTCF
+import CTCF from '@/pages/CTCF'
+
 // Browse
 import Browse from '@/pages/Browse'
 
@@ -19,6 +28,9 @@ import Help from '@/pages/Help'
 
 // 首页相关
 import Home from '@/pages/home'
+
+// 首页相关
+import Home1 from '@/pages/home1'
 
 // about us
 import AboutUs from '@/pages/AboutUs'
@@ -41,6 +53,18 @@ const router = new Router({
       name: 'home',
       component: Home
     }, {
+      path: '/K562',
+      name: 'K562',
+      component: K562
+    }, {
+      path: '/POLR2A',
+      name: 'POLR2A',
+      component: POLR2A
+    }, {
+      path: '/CTCF',
+      name: 'CTCF',
+      component: CTCF
+    }, {
       path: '/AboutUs',
       name: 'AboutUs',
       component: AboutUs
@@ -60,6 +84,10 @@ const router = new Router({
       path: '/News',
       name: 'News',
       component: News
+    }, {
+      path: '/home1',
+      name: 'home1',
+      component: Home1
     }, {
       path: '/Browse',
       name: 'Browse',

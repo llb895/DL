@@ -2,7 +2,7 @@
   <el-menu class="df-header" default-active="1" mode="horizontal" :router="true">
     <el-row justify="space-around" type="flex">
       <el-col :span="30">
-        <el-menu-item index="1" :route="{ name:'home' }">Home</el-menu-item>
+        <el-menu-item index="1" :route="{ name:'home1' }">Home</el-menu-item>
         <el-menu-item index="2" :route="{ name:'Browse' }">Browse</el-menu-item>
         <el-menu-item index="3" :route="{ name:'ContactUs' }">Contact Us</el-menu-item>
         <el-menu-item index="4" :route="{ name:'Help'}">Help</el-menu-item>
