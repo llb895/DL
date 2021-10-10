@@ -27,31 +27,28 @@
                   <el-input v-model="search" placeholder="" size="small" style="width: 400px;"></el-input>
                 </div>
               </div>
-              <br />
+              <br/>
+
+
+
               <el-table
                 :data="tableData.filter(data => !search || data.Cell_Line.toLowerCase().includes(search.toLowerCase()))"
                 height="250"
                 border
                 style="width: 100%"
                 :default-sort = "{prop: 'Cell_Line', order: 'descending'}">
-                <el-table-column
-                  prop="Factor"
-                  label="Factor"
-                  sortable
-                  width="200">
+
+                <el-table-column prop="Factor" label="Factor" sortable width="200">
+
                 </el-table-column>
-                <el-table-column
-                  prop="Cell_Line"
-                  label="Cell-Line"
-                  sortable
-                  width="450">
-                </el-table-column>
-                <el-table-column
-                  prop="UCSC"
-                  label="UCSC"
-                  sortable>
-                </el-table-column>
+
+                <el-table-column prop="Cell_Line" label="Cell-Line" sortable width="450"></el-table-column>
+
+                <el-table-column prop="UCSC" label="UCSC" sortable></el-table-column>
+
+
               </el-table>
+
             </template>
             </div>
             <div>
@@ -61,6 +58,7 @@
                 :total="100">
               </el-pagination>
             </div>
+
 
 
           </div>
@@ -97,26 +95,42 @@ td{
 
 
 <script>
-  export default {
-    data () {
-      return {
-        tableData: [],
-        options: [{
-          value: '10',
-          label: '10'
-        }, {
-          value: '25',
-          label: '25'
-        }, {
-          value: '50',
-          label: '50'
-        }, {
-          value: '100',
-          label: '100'
-        }],
-        value: '',
-        search: ''
-      }
+export default {
+  data () {
+    return {
+      tableData: [
+        {
+          Factor: 'Factor1',
+          Cell_Line: 'Cell_Line1',
+          UCSC: 'UCSC1'
+        },
+        {
+          Factor: 'Factor2',
+          Cell_Line: 'Cell_Line2',
+          UCSC: 'UCSC2'
+        },
+        {
+          Factor: 'Factor3',
+          Cell_Line: 'Cell_Line3',
+          UCSC: 'UCSC3'
+        }
+      ],
+      options: [{
+        value: '10',
+        label: '10'
+      }, {
+        value: '25',
+        label: '25'
+      }, {
+        value: '50',
+        label: '50'
+      }, {
+        value: '100',
+        label: '100'
+      }],
+      value: '',
+      search: ''
     }
   }
+}
 </script>
